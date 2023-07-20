@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.main{
+    width:100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.flex{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav-bar{
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul{
+    gap: 70px;
+}
+
+.header{
+    height: 80%;
+    align-items: center;
+    position: relative;
+    gap: 111px;
+}
+
+.header h1{
+    color: #51068B;
+    font-size: 70px;
+    font-weight: 900;
+    font-family: sans-serif;
+    line-height: 1;
+}
+
+.header p{
+    margin-top: 30px;
+}
+
+.nav-along{
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-color: #FDDCDC;
+    position: absolute;
+    right: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.white{
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-along i{
+    font-size: 25px;
+    color: rgb(142, 140, 140);
+}
+
+.h-left{
+    width: 40%;
+}
+
+.shadow{
+    width: 409px;
+    height: 61px;
+    border-radius: 409px;
+    background: rgba(43, 25, 96, 0.30);
+    filter: blur(19px);
+}
+
+.footer-section{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-link{
+    gap: 4px;
+}
+
+.social-div{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: rgb(234, 232, 232);
+    align-items: center;
+    justify-content: center;
+}
+
+.social-div i{
+    font-size: 20px;
+    color: rgb(176, 173, 173);
+}
+
+.circle1{
+    width: 982px;
+    height: 982px;
+    border-radius: 982px;
+    background: linear-gradient(177deg, #C266ED 0%, rgba(255, 255, 255, 0.00) 100%);
+    position: absolute;
+    top: -391px;
+    right: -280px;
+    z-index: -2;
+}
+
+.circle2{
+    width: 982px;
+    height: 982px;
+    border-radius: 982px;
+    background: linear-gradient(350deg, #B0C1FD 0%, rgba(255, 255, 255, 0.00) 100%);
+    position: absolute;
+    bottom: -491px;
+    left: -391px;
+    z-index: -2;
+}
+
+.circle3{
+    width: 394px;
+    height: 394px;
+    border-radius: 394px;
+    background: rgba(95, 255, 197, 0.80);
+    filter: blur(150px);
+    position: absolute;
+    top: 90px;
+    left: 230px;
+    z-index: -1;
+}
+
+.circle4{
+    width: 394px;
+    height: 394px;
+    border-radius: 394px;
+    background: rgba(174, 126, 244, 0.69);
+    filter: blur(150px);
+    position: absolute;
+    top: 206px;
+    left: 395px;
+    z-index: -1;
+}
